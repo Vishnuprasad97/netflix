@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.main {
+  background-image: url(/netflix/bg.jpg);
+  color: white;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div1 {
+  padding-top: 200px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.p1 {
+  padding-top: 10px;
+  font-size: 28px;
+}
+.p2 {
+  padding-top: 25px;
+  font-size: 23px;
+}
+img {
+  width: 180px;
+  height: 100px;
+  padding-left: 160px;
+  padding-bottom: 30px;
+}
+.box1 input {
+  height: 50px;
+  width: 350px;
+  color: white;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(0, 0, 0, 0.352);
+  border-radius: 4px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(199, 199, 199, 0.893);
+}
+.box1 button {
+  height: 52px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(226, 12, 12);
+  border-radius: 4px;
+  border-style: none;
+}
+.box1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.fa-chevron-right {
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.dropdown {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.352);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(199, 199, 199, 0.893);
+  display: flex;
+  width: 107px;
+  height: 26px;
+  padding-right: 14px;
+  padding-top: 3px;
+}
+.lang {
+  width: 20px;
+  height: 20px;
+  margin-left: -140px;
+}
+#language {
+  border-style: none;
+  background: none;
+  color: white;
+}
+.signin {
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(226, 12, 12);
+  border-radius: 4px;
+  border-style: none;
+  padding-bottom: 3px;
+}
+.right {
+  display: flex;
+  margin-top: -102px;
+  margin-left: 1120px;
+}
+
+.second {
+  width: 100%;
+  height: 575px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.second-img img {
+  width: 600px;
+  height: 400px;
+  padding-top: 50px;
+}
+.second-text {
+  width: 500px;
+  margin-top: 200px;
+}
+.second p {
+  font-size: 20px !important;
+}
+
+.third {
+  width: 100%;
+  height: 575px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.third-img img {
+  width: 500px;
+  height: 400px;
+  padding-top: 50px;
+  margin-left: -50px;
+}
+.third-text {
+  width: 600px;
+  margin-top: 200px;
+}
+.third-text {
+  font-size: 20px !important;
+}
+.qn {
+  background-color: black;
+  color: white;
+}
+.forth {
+  text-align: center;
+  background-color: black;
+  height: 700px;
+}
+.forth button {
+  position: relative;
+  left: 80px;
+  top: 10px;
+  /* width: 300px; */
+  background-color: gray;
+  padding: 1.5rem;
+  border-radius: 0;
+  /* box-sizing: content-box; */
+  text-decoration: none;
+  width: 90%;
+  /* background: none; */
+  /* border: none; */
+  cursor: pointer;
+  display: flex;
+  /* margin-bottom: 40px; */
+  /* margin-top: 60px; */
+  color: white;
+  font-weight: bolder;
+}
+i {
+  position: absolute;
+  right: 10px;
+}
+.forth h2 {
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-weight: 900;
+  /* position: absolute; */
+  /* top: 0px; */
+}
+.forth p {
+  color: white;
+  position: relative;
+  top: 60px;
+  margin-bottom: 80px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+  sans-serif;;
+}
+.box4 input {
+  position: absolute;
+  height: 50px;
+  width: 350px;
+  color: white;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(0, 0, 0, 0.352);
+  border-radius: 4px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(199, 199, 199, 0.893);
+}
+.box4 button {
+  position: relative;
+  left: 295px;
+  top: 0px;
+  height: 52px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 21px;
+  color: white;
+  background-color: rgb(226, 12, 12);
+  border-radius: 4px;
+  border-style: none;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.box4 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
